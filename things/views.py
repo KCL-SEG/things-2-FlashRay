@@ -6,4 +6,4 @@ def home(request):
 
 def form_up(request):
     form = FormUpForm()
-    return render(request, "form_up.html", { "form" : form })
+    return render(request, "home.html", { "form" : form })
